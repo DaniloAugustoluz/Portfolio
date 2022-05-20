@@ -1,0 +1,55 @@
+/*      Css completo portifolio      */ 
+/*      imagem inicial          */ 
+header img{
+    border-radius: 50%;
+    width: 15%;
+    padding-left: 15px;
+    position: relative;
+    bottom: 100px;
+}
+
+/*    section de informações pessoais  */
+header .content-infopessoal{
+    position: relative;
+    left: 300px;
+    top: 30px;
+    border: 1px solid black;
+    width: 320px;
+    height: 200px;
+    padding-left: 50px;
+    display: block;
+    justify-content: center;
+}
+
+/*      titulo h1 da section de informações pessoais     */ 
+.content-infopessoal h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+}
+
+/*      div de links de imagens     */ 
+.content-infopessoal .links-contatos {
+    width: 200px;
+    height: 30px;
+    position: relative;
+    top: 150px;
+    left: 35px;
+}
+
+/*      formatação de paragrafo     */
+
+.content-infopessoal .info-danilo span{
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-infopessoal .info-danilo {
+    position: relative;
+    right: 25px;
+    top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px; 
+}
